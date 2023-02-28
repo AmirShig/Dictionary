@@ -25,7 +25,7 @@ int main()
 
 void read(){
     
-    FILE* fp = fopen("words.csv", "r");
+    FILE* fp = fopen("eng_rus/words.csv", "r");
  
     if (!fp)
         printf("Can't open file\n");
@@ -73,7 +73,7 @@ void read(){
 
 void add(){
 	
-	FILE* fp = fopen("words.csv", "a+");
+	FILE* fp = fopen("eng_rus/words.csv", "a+");
 
 	char eng[50], rus[50];
 	int status;
